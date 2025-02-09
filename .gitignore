@@ -1,0 +1,42 @@
+# Jekyll _site and .jekyll-cache
+_site/
+.jekyll-cache/
+
+# Bundler dependencies
+/vendor/bundle/
+.bundle/
+/vendor/
+
+# Gem files
+*.gem
+Gemfile.lock
+
+# Log and temp files
+*.log
+*.swp
+*.swo
+*.DS_Store
+*.sass-cache
+.cap
+*.pid
+*.seed
+tmp/
+log/
+cache/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Node dependencies (if using npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Jekyll metadata files
+.jekyll-metadata
+
+# GitHub Pages (optional)
+.github/
+
+# VSCode settings (optional)
+.vscode/
