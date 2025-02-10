@@ -18,16 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Delgado Perez home
+title: Delgado Perez
+author: "Jess Delgado Perez"
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-    Delgado Perez family home.
+    Our family home
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: jdelgadoperez
+paginate: 5
+social:
+    github: jdelgadoperez
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hydejack
 plugins:
     - jekyll-feed
     - github-pages
