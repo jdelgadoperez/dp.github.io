@@ -4,14 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Jekyll-based personal/family website for the Delgado Perez family, hosted on GitHub Pages at https://family.delgadoperez.com. The site uses the Just the Docs theme and is automatically deployed via GitHub Actions.
+This is a Jekyll-based personal/family website for the Delgado Perez family, hosted on GitHub Pages at https://family.delgadoperez.com. The site uses the Just the Docs theme and is automatically deployed via GitHub Pages.
 
 ## Architecture
 
 **Static Site Generator**: Jekyll with GitHub Pages compatibility
 - Theme: `just-the-docs/just-the-docs` (via remote_theme)
 - Domain: https://family.delgadoperez.com
-- GitHub Pages deployment via `.github/workflows/jekyll.yml`
+- Automatic GitHub Pages deployment from main branch
 
 **Key Configuration**:
 - `_config.yml`: Site-wide settings, theme configuration, and metadata
@@ -84,12 +84,13 @@ If changes to `_config.yml` don't appear:
 
 ## Deployment
 
-The site auto-deploys to GitHub Pages on every push to the `main` branch via `.github/workflows/jekyll.yml`. The workflow:
-1. Sets up Ruby 3.1 and installs dependencies
-2. Builds the site with `bundle exec jekyll build`
-3. Uploads and deploys the `_site/` directory to GitHub Pages
+The site uses **GitHub Pages automatic deployment**:
+- Configured to "Deploy from a branch" (main branch)
+- GitHub automatically detects Jekyll and builds the site
+- Deploys automatically on every push to `main`
+- No custom workflow or manual steps required
 
-No manual deployment steps required.
+The site is available at: https://family.delgadoperez.com
 
 ## Content Creation
 
