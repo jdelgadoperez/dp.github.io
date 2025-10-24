@@ -4,13 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Jekyll-based personal/family website for the Delgado Perez family, hosted on GitHub Pages at https://delgadoperez.family. The site uses the jekyll-theme-hydejack theme and is automatically deployed via GitHub Actions.
+This is a Jekyll-based personal/family website for the Delgado Perez family, hosted on GitHub Pages at https://family.delgadoperez.com. The site uses the Just the Docs theme and is automatically deployed via GitHub Actions.
 
 ## Architecture
 
 **Static Site Generator**: Jekyll with GitHub Pages compatibility
-- Theme: `jekyll-theme-hydejack`
-- Domain: https://delgadoperez.family
+- Theme: `just-the-docs/just-the-docs` (via remote_theme)
+- Domain: https://family.delgadoperez.com
 - GitHub Pages deployment via `.github/workflows/jekyll.yml`
 
 **Key Configuration**:

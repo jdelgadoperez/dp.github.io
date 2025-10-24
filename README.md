@@ -1,10 +1,10 @@
 # Delgado Perez Family Site
 
-Personal/family website hosted at [delgadoperez.family](https://delgadoperez.family)
+Personal/family website hosted at [family.delgadoperez.com](https://family.delgadoperez.com)
 
 ## About
 
-This is a Jekyll-based static site using the [Hydejack theme](https://hydejack.com/), deployed automatically to GitHub Pages.
+This is a Jekyll-based static site using the [Just the Docs theme](https://github.com/just-the-docs/just-the-docs), deployed automatically to GitHub Pages.
 
 ## Development
 

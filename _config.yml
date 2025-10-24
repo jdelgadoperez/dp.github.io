@@ -24,16 +24,15 @@ email: ""
 description: >- # this means to ignore newlines until "baseurl:"
     Our family home
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://delgadoperez.family" # the base hostname & protocol for your site, e.g. http://example.com
-paginate: 5
+url: "https://family.delgadoperez.com" # the base hostname & protocol for your site, e.g. http://example.com
 social:
     github: jdelgadoperez
 
 # Build settings
-theme: jekyll-theme-hydejack
+remote_theme: just-the-docs/just-the-docs
 plugins:
     - jekyll-feed
-    - github-pages
+    - jekyll-remote-theme
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
