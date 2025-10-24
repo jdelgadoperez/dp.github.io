@@ -35,8 +35,5 @@ yarn.lock
 # Jekyll metadata files
 .jekyll-metadata
 
-# GitHub Pages (optional)
-.github/
-
 # VSCode settings (optional)
 .vscode/
